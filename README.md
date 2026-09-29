@@ -1,5 +1,12 @@
 # K4 — Level 3B, Ngày 12: Hạ Tầng Cloud & Deployment (240 phút)
 
+[![CI/CD](https://github.com/dotrongbinhf/K4-L3B-DAY12-DoTrongBinh-L3B202602855-CloudServicesAndDeployment/actions/workflows/ci.yml/badge.svg)](https://github.com/dotrongbinhf/K4-L3B-DAY12-DoTrongBinh-L3B202602855-CloudServicesAndDeployment/actions/workflows/ci.yml)
+
+Để bật deploy tự động lên Render, thêm `RENDER_DEPLOY_HOOK_URL` trong GitHub
+Settings → Secrets and variables → Actions. Thêm `PUBLIC_URL` (URL public, không
+có dấu `/` cuối) trong Repository Variables để bật smoke test sau deploy. Blueprint
+tắt auto-deploy trực tiếp để chỉ deploy commit đã qua test và build.
+
 Đưa một AI agent từ `localhost:8000` lên một địa chỉ công khai mà người khác
 gọi được, có bảo mật, có giới hạn chi phí, và không sập khi bạn deploy bản mới.
 
