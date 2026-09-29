@@ -4,3 +4,19 @@
 
 .git
 .gitignore
+.env
+.env.*
+.venv
+venv
+__pycache__
+*.py[cod]
+*.log
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.coverage
+htmlcov
+tests
+docs
+*.md
+docker-compose*.yml
